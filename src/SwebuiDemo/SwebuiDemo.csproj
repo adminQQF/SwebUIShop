@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{444D6D43-2775-4C3F-89C0-3B3FD399C17F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SwebuiDemo</RootNamespace>
+    <AssemblyName>SwebuiDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Swebui.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c0fe134bbc911c57, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Swebui Designer\Library\Swebui.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Swebui.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c28d201d12639a97, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Swebui Designer\Library\Swebui.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Swebui.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f1ac7264a7cfc183, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Swebui Designer\Library\Swebui.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DemoGlobal.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shop\DataProvider.cs" />
+    <Compile Include="Shop\shopMY.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\shopMY.Designer.cs">
+      <DependentUpon>shopMY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\shopCart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\shopCart.Designer.cs">
+      <DependentUpon>shopCart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\shopDetail.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\shopDetail.Designer.cs">
+      <DependentUpon>shopDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\shopIndex.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\shopIndex.Designer.cs">
+      <DependentUpon>shopIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\cartSectLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\cartSectLayout.Designer.cs">
+      <DependentUpon>cartSectLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\detailImgLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\detailImgLayout.Designer.cs">
+      <DependentUpon>detailImgLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\loginLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\loginLayout.Designer.cs">
+      <DependentUpon>loginLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\imgLabButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\imgLabButton.Designer.cs">
+      <DependentUpon>imgLabButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\myWlLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\myWlLayout.Designer.cs">
+      <DependentUpon>myWlLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\navLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\navLayout.Designer.cs">
+      <DependentUpon>navLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\imgButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\imgButton.Designer.cs">
+      <DependentUpon>imgButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\cateLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\cateLayout.Designer.cs">
+      <DependentUpon>cateLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\commentLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\commentLayout.Designer.cs">
+      <DependentUpon>commentLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\cartListLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\cartListLayout.Designer.cs">
+      <DependentUpon>cartListLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\myProLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\myProLayout.Designer.cs">
+      <DependentUpon>myProLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\shopCartTabLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\shopCartTabLayout.Designer.cs">
+      <DependentUpon>shopCartTabLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\tabLayout2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\tabLayout2.Designer.cs">
+      <DependentUpon>tabLayout2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\tabLayout3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\tabLayout3.Designer.cs">
+      <DependentUpon>tabLayout3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\tabLayout1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\tabLayout1.Designer.cs">
+      <DependentUpon>tabLayout1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\proLayout4.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\proLayout4.Designer.cs">
+      <DependentUpon>proLayout4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\proLayout3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\proLayout3.Designer.cs">
+      <DependentUpon>proLayout3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\proLayout2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\proLayout2.Designer.cs">
+      <DependentUpon>proLayout2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\proLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\proLayout.Designer.cs">
+      <DependentUpon>proLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\imgLayout2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\imgLayout2.Designer.cs">
+      <DependentUpon>imgLayout2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\usercontrol\imgLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Shop\usercontrol\imgLayout.Designer.cs">
+      <DependentUpon>imgLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SwebGlobal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Shop\shopMY.resx">
+      <DependentUpon>shopMY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\shopCart.resx">
+      <DependentUpon>shopCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\shopDetail.resx">
+      <DependentUpon>shopDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\shopIndex.resx">
+      <DependentUpon>shopIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\cartSectLayout.resx">
+      <DependentUpon>cartSectLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\detailImgLayout.resx">
+      <DependentUpon>detailImgLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\loginLayout.resx">
+      <DependentUpon>loginLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\imgLabButton.resx">
+      <DependentUpon>imgLabButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\myWlLayout.resx">
+      <DependentUpon>myWlLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\navLayout.resx">
+      <DependentUpon>navLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\imgButton.resx">
+      <DependentUpon>imgButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\cateLayout.resx">
+      <DependentUpon>cateLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\commentLayout.resx">
+      <DependentUpon>commentLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\cartListLayout.resx">
+      <DependentUpon>cartListLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\myProLayout.resx">
+      <DependentUpon>myProLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\shopCartTabLayout.resx">
+      <DependentUpon>shopCartTabLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\tabLayout2.resx">
+      <DependentUpon>tabLayout2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\tabLayout3.resx">
+      <DependentUpon>tabLayout3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\tabLayout1.resx">
+      <DependentUpon>tabLayout1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\proLayout4.resx">
+      <DependentUpon>proLayout4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\proLayout3.resx">
+      <DependentUpon>proLayout3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\proLayout2.resx">
+      <DependentUpon>proLayout2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\proLayout.resx">
+      <DependentUpon>proLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\imgLayout2.resx">
+      <DependentUpon>imgLayout2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop\usercontrol\imgLayout.resx">
+      <DependentUpon>imgLayout.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
