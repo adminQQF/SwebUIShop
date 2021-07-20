@@ -4,4 +4,15 @@
 
 /.vs/SWEBUIShop/v16
 /src/SwebuiDemo/obj/Debug
-/src/SwebuiDemo/bin/Debug
+
+/src/SwebuiDemo/bin/Debug/DeveloperTrace
+/src/SwebuiDemo/bin/Debug/SwebuiDemo.pdb
+/src/SwebuiDemo/bin/Debug/SwebuiDemo.exe.config
+/src/SwebuiDemo/bin/Debug/SwebuiDemo.exe
+/src/SwebuiDemo/bin/Debug/Swebui.Design.dll
+/src/SwebuiDemo/bin/Debug/Swebui.Core.xml
+/src/SwebuiDemo/bin/Debug/Swebui.Core.dll
+/src/SwebuiDemo/bin/Debug/Swebui.Controls.xml
+/src/SwebuiDemo/bin/Debug/Swebui.Controls.pdb
+/src/SwebuiDemo/bin/Debug/Swebui.Controls.dll
+/src/SwebuiDemo/bin/Debug/Setting.config

@@ -3,10 +3,13 @@
 
 该demo仿写了网页版淘宝的首页、商品详情页、购物车以及 个人主页 ，demo中 不涉及业务逻辑，仅实现界面样式。
 
+也可前往Gitee码云获取源码，[https://gitee.com/smobiler/SwebUIShop](https://gitee.com/smobiler/SwebUIShop)
+
 ### 源代码运行环境要求
+
 .NET FrameWork版本: .支持NET FrameWork 4.5及以上版本  
 Visual Studio版本：支持Visual studio 2012及以上版本  
-SWEBUIDesigner版本：1.0及以上([下载并安装SWEBUIDesigner](https://www.swebui.com/download.html) 
+SWEBUIDesigner版本：1.0及以上([下载并安装SWEBUIDesigner](https://www.swebui.com/download.html])）
 
 
 
