@@ -117,6 +117,7 @@ namespace SwebuiDemo
         private static List<OrderListItem> orderProList=new List<OrderListItem>();
         public static List<OrderListItem> GetOrderLists()
         {
+            orderProList = new List<OrderListItem>();
             OrderListItem orderListItem = new OrderListItem();
             orderListItem.ShopInfo = GetShopInfo();
             List<OrderShopProductInfo> orderShopProductInfos = new List<OrderShopProductInfo>();
