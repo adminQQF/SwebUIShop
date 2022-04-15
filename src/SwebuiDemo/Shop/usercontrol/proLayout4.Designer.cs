@@ -49,7 +49,6 @@ namespace SwebuiDemo
             // 
             this.image1.DisplayMember = "proimg";
             this.image1.Name = "image1";
-            this.image1.ResouceData = null;
             this.image1.ResourceID = "";
             this.image1.Size = new System.Drawing.Size(0, 180);
             this.image1.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -60,13 +59,12 @@ namespace SwebuiDemo
             this.button1.DisplayMember = "name";
             this.button1.FontSize = 12F;
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.button1.LineHeight = 1.2F;
+            this.button1.LineHeight = 15F;
             this.button1.Margin = new Swebui.Controls.Margin(0F, 5F, 0F, 5F);
             this.button1.Name = "button1";
             this.button1.NumberOfLines = 2;
             this.button1.SelectBackgroundColor = System.Drawing.Color.White;
             this.button1.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.button1.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button1.Size = new System.Drawing.Size(0, 0);
             // 
             // panel2
@@ -82,6 +80,7 @@ namespace SwebuiDemo
             // 
             this.label1.FontSize = 12F;
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.label1.LineHeight = 12F;
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 0);
             this.label1.Text = "гд";
@@ -90,6 +89,7 @@ namespace SwebuiDemo
             // 
             this.label2.DisplayMember = "price";
             this.label2.FontSize = 12F;
+            this.label2.LineHeight = 12F;
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 0);
             // 

@@ -84,7 +84,6 @@ namespace SwebuiDemo
             this.proImg.DisplayMember = "proimg";
             this.proImg.Margin = new Swebui.Controls.Margin(0F, 0F, 10F, 0F);
             this.proImg.Name = "proImg";
-            this.proImg.ResouceData = null;
             this.proImg.ResourceID = "";
             this.proImg.Size = new System.Drawing.Size(80, 80);
             this.proImg.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -105,11 +104,11 @@ namespace SwebuiDemo
             this.proName.FontSize = 12F;
             this.proName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.proName.HorizontalAlignment = Swebui.Controls.HorizontalAlignment.Left;
+            this.proName.LineHeight = 12F;
             this.proName.Name = "proName";
             this.proName.NumberOfLines = 2;
             this.proName.SelectBackgroundColor = System.Drawing.Color.Transparent;
             this.proName.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.proName.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.proName.Size = new System.Drawing.Size(226, 35);
             // 
             // panel3
@@ -131,7 +130,6 @@ namespace SwebuiDemo
             this.promoImg1.DisplayMember = "promo1";
             this.promoImg1.Margin = new Swebui.Controls.Margin(0F, 0F, 5F, 0F);
             this.promoImg1.Name = "promoImg1";
-            this.promoImg1.ResouceData = null;
             this.promoImg1.ResourceID = "";
             this.promoImg1.Size = new System.Drawing.Size(14, 16);
             this.promoImg1.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -143,7 +141,6 @@ namespace SwebuiDemo
             this.promoImg2.DisplayMember = "promo2";
             this.promoImg2.Margin = new Swebui.Controls.Margin(0F, 0F, 5F, 0F);
             this.promoImg2.Name = "promoImg2";
-            this.promoImg2.ResouceData = null;
             this.promoImg2.ResourceID = "";
             this.promoImg2.Size = new System.Drawing.Size(14, 16);
             this.promoImg2.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -155,7 +152,6 @@ namespace SwebuiDemo
             this.promoImg3.DisplayMember = "promo3";
             this.promoImg3.Margin = new Swebui.Controls.Margin(0F, 0F, 5F, 0F);
             this.promoImg3.Name = "promoImg3";
-            this.promoImg3.ResouceData = null;
             this.promoImg3.ResourceID = "";
             this.promoImg3.Size = new System.Drawing.Size(15, 16);
             this.promoImg3.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -167,7 +163,6 @@ namespace SwebuiDemo
             this.promoImg4.DisplayMember = "promo4";
             this.promoImg4.Margin = new Swebui.Controls.Margin(0F, 0F, 5F, 0F);
             this.promoImg4.Name = "promoImg4";
-            this.promoImg4.ResouceData = null;
             this.promoImg4.ResourceID = "";
             this.promoImg4.Size = new System.Drawing.Size(15, 16);
             this.promoImg4.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -206,7 +201,6 @@ namespace SwebuiDemo
             this.subBtn.Name = "subBtn";
             this.subBtn.NumberOfLines = 0;
             this.subBtn.SelectBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.subBtn.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.subBtn.Size = new System.Drawing.Size(25, 25);
             this.subBtn.Text = "-";
             this.subBtn.Click += new System.EventHandler(this.subBtn_Click);
@@ -229,7 +223,6 @@ namespace SwebuiDemo
             this.plusBtn.Name = "plusBtn";
             this.plusBtn.NumberOfLines = 0;
             this.plusBtn.SelectBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.plusBtn.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.plusBtn.Size = new System.Drawing.Size(25, 25);
             this.plusBtn.Text = "+";
             this.plusBtn.Click += new System.EventHandler(this.plusBtn_Click);
@@ -267,7 +260,6 @@ namespace SwebuiDemo
             this.favbtn.NumberOfLines = 0;
             this.favbtn.SelectBackgroundColor = System.Drawing.Color.Transparent;
             this.favbtn.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(68)))), ((int)(((byte)(0)))));
-            this.favbtn.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.favbtn.Size = new System.Drawing.Size(0, 25);
             this.favbtn.Text = "“∆»Î ’≤ÿº–";
             // 
@@ -281,7 +273,6 @@ namespace SwebuiDemo
             this.delbtn.NumberOfLines = 0;
             this.delbtn.SelectBackgroundColor = System.Drawing.Color.Transparent;
             this.delbtn.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(68)))), ((int)(((byte)(0)))));
-            this.delbtn.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.delbtn.Size = new System.Drawing.Size(0, 25);
             this.delbtn.Text = "…æ≥˝";
             // 
@@ -295,7 +286,6 @@ namespace SwebuiDemo
             this.findbtn.NumberOfLines = 0;
             this.findbtn.SelectBackgroundColor = System.Drawing.Color.Transparent;
             this.findbtn.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(68)))), ((int)(((byte)(0)))));
-            this.findbtn.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.findbtn.Size = new System.Drawing.Size(0, 25);
             this.findbtn.Text = "œ‡À∆±¶±¥";
             this.findbtn.Visible = false;

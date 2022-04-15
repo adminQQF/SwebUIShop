@@ -150,7 +150,6 @@ namespace SwebuiDemo
             this.panel1.ItemAlign = Swebui.Controls.LayoutItemAlign.Center;
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(0, 0);
-            this.panel1.Wrap = Swebui.Controls.LayoutWrap.Wrap;
             // 
             // panel2
             // 
@@ -191,7 +190,6 @@ namespace SwebuiDemo
             // image1
             // 
             this.image1.Name = "image1";
-            this.image1.ResouceData = null;
             this.image1.ResourceID = "title.gif";
             this.image1.Size = new System.Drawing.Size(160, 100);
             this.image1.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -232,7 +230,6 @@ namespace SwebuiDemo
             this.button1.Margin = new Swebui.Controls.Margin(20F, 0F, 10F, 0F);
             this.button1.Name = "button1";
             this.button1.NumberOfLines = 0;
-            this.button1.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button1.Size = new System.Drawing.Size(50, 33);
             this.button1.Text = "宝贝 ";
             // 
@@ -275,7 +272,6 @@ namespace SwebuiDemo
             this.button2.Margin = new Swebui.Controls.Margin(0F, 0F, 5F, 0F);
             this.button2.Name = "button2";
             this.button2.NumberOfLines = 0;
-            this.button2.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button2.Size = new System.Drawing.Size(60, 30);
             this.button2.Text = "搜索";
             // 
@@ -367,7 +363,6 @@ namespace SwebuiDemo
             this.button3.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
             this.button3.SelectBackgroundColor = System.Drawing.Color.White;
             this.button3.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(98)))), ((int)(((byte)(0)))));
-            this.button3.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button3.Size = new System.Drawing.Size(0, 0);
             this.button3.Text = "天猫";
             // 
@@ -383,7 +378,6 @@ namespace SwebuiDemo
             this.button4.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
             this.button4.SelectBackgroundColor = System.Drawing.Color.White;
             this.button4.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(98)))), ((int)(((byte)(0)))));
-            this.button4.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button4.Size = new System.Drawing.Size(0, 0);
             this.button4.Text = "聚划算";
             // 
@@ -399,7 +393,6 @@ namespace SwebuiDemo
             this.button5.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
             this.button5.SelectBackgroundColor = System.Drawing.Color.White;
             this.button5.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(98)))), ((int)(((byte)(0)))));
-            this.button5.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button5.Size = new System.Drawing.Size(0, 0);
             this.button5.Text = "天猫超市";
             // 
@@ -419,7 +412,6 @@ namespace SwebuiDemo
             this.button6.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
             this.button6.SelectBackgroundColor = System.Drawing.Color.White;
             this.button6.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(98)))), ((int)(((byte)(0)))));
-            this.button6.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button6.Size = new System.Drawing.Size(0, 0);
             this.button6.Text = "司法拍卖";
             // 
@@ -434,7 +426,6 @@ namespace SwebuiDemo
             this.button7.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
             this.button7.SelectBackgroundColor = System.Drawing.Color.White;
             this.button7.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(98)))), ((int)(((byte)(0)))));
-            this.button7.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button7.Size = new System.Drawing.Size(0, 0);
             this.button7.Text = "飞猪旅行";
             // 
@@ -449,7 +440,6 @@ namespace SwebuiDemo
             this.button8.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
             this.button8.SelectBackgroundColor = System.Drawing.Color.White;
             this.button8.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(98)))), ((int)(((byte)(0)))));
-            this.button8.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button8.Size = new System.Drawing.Size(0, 0);
             this.button8.Text = "天天特卖";
             // 
@@ -464,7 +454,6 @@ namespace SwebuiDemo
             this.button9.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
             this.button9.SelectBackgroundColor = System.Drawing.Color.White;
             this.button9.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(98)))), ((int)(((byte)(0)))));
-            this.button9.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button9.Size = new System.Drawing.Size(0, 0);
             this.button9.Text = "淘小铺";
             // 
@@ -484,7 +473,6 @@ namespace SwebuiDemo
             this.button10.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
             this.button10.SelectBackgroundColor = System.Drawing.Color.White;
             this.button10.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(98)))), ((int)(((byte)(0)))));
-            this.button10.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button10.Size = new System.Drawing.Size(0, 0);
             this.button10.Text = "造点新货";
             // 
@@ -499,7 +487,6 @@ namespace SwebuiDemo
             this.button11.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
             this.button11.SelectBackgroundColor = System.Drawing.Color.White;
             this.button11.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(98)))), ((int)(((byte)(0)))));
-            this.button11.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button11.Size = new System.Drawing.Size(0, 0);
             this.button11.Text = "苏宁易购";
             // 
@@ -514,7 +501,6 @@ namespace SwebuiDemo
             this.button12.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
             this.button12.SelectBackgroundColor = System.Drawing.Color.White;
             this.button12.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(98)))), ((int)(((byte)(0)))));
-            this.button12.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button12.Size = new System.Drawing.Size(0, 0);
             this.button12.Text = "淘宝心选";
             // 
@@ -529,7 +515,6 @@ namespace SwebuiDemo
             this.button13.Padding = new Swebui.Controls.Padding(5F, 0F, 5F, 0F);
             this.button13.SelectBackgroundColor = System.Drawing.Color.White;
             this.button13.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(98)))), ((int)(((byte)(0)))));
-            this.button13.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button13.Size = new System.Drawing.Size(0, 0);
             this.button13.Text = "智能生活";
             // 
@@ -595,7 +580,6 @@ namespace SwebuiDemo
             // 
             this.image2.Flex = 1;
             this.image2.Name = "image2";
-            this.image2.ResouceData = null;
             this.image2.ResourceID = "img1.jpg";
             this.image2.Size = new System.Drawing.Size(0, 45);
             this.image2.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -616,7 +600,6 @@ namespace SwebuiDemo
             // image3
             // 
             this.image3.Name = "image3";
-            this.image3.ResouceData = null;
             this.image3.ResourceID = "hd.png";
             this.image3.Size = new System.Drawing.Size(74, 24);
             this.image3.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -673,7 +656,6 @@ namespace SwebuiDemo
             // 
             this.image4.Flex = 1;
             this.image4.Name = "image4";
-            this.image4.ResouceData = null;
             this.image4.ResourceID = "img2.jpg";
             this.image4.Size = new System.Drawing.Size(0, 45);
             this.image4.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -752,7 +734,6 @@ namespace SwebuiDemo
             // 
             this.image5.Location = new System.Drawing.Point(0, 1);
             this.image5.Name = "image5";
-            this.image5.ResouceData = null;
             this.image5.ResourceID = "bg.png";
             this.image5.Size = new System.Drawing.Size(289, 139);
             this.image5.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -777,7 +758,6 @@ namespace SwebuiDemo
             this.button14.NumberOfLines = 0;
             this.button14.SelectBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(228)))), ((int)(((byte)(219)))));
             this.button14.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
-            this.button14.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button14.Size = new System.Drawing.Size(100, 17);
             this.button14.Text = "零淘金币抵钱";
             // 
@@ -792,7 +772,6 @@ namespace SwebuiDemo
             this.button15.NumberOfLines = 0;
             this.button15.SelectBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(228)))), ((int)(((byte)(219)))));
             this.button15.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
-            this.button15.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button15.Size = new System.Drawing.Size(100, 17);
             this.button15.Text = "会员俱乐部";
             // 
@@ -811,7 +790,6 @@ namespace SwebuiDemo
             // 
             this.image6.BorderRadius = 50;
             this.image6.Name = "image6";
-            this.image6.ResouceData = null;
             this.image6.ResourceID = "user.jpg";
             this.image6.Size = new System.Drawing.Size(49, 50);
             this.image6.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -828,7 +806,6 @@ namespace SwebuiDemo
             // image7
             // 
             this.image7.Name = "image7";
-            this.image7.ResouceData = null;
             this.image7.ResourceID = "img3.jpg";
             this.image7.Size = new System.Drawing.Size(0, 65);
             this.image7.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -860,7 +837,6 @@ namespace SwebuiDemo
             this.noBtn1.RaiseMouseEvent = true;
             this.noBtn1.SelectBackgroundColor = System.Drawing.Color.White;
             this.noBtn1.SelectColor = System.Drawing.Color.Black;
-            this.noBtn1.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.noBtn1.Size = new System.Drawing.Size(100, 24);
             this.noBtn1.Text = "公告";
             this.noBtn1.MouseEnter += new Swebui.Controls.SwebMouseMoveEventHandler(this.noBtn1_MouseOver);
@@ -878,7 +854,6 @@ namespace SwebuiDemo
             this.noBtn2.RaiseMouseEvent = true;
             this.noBtn2.SelectBackgroundColor = System.Drawing.Color.White;
             this.noBtn2.SelectColor = System.Drawing.Color.Black;
-            this.noBtn2.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.noBtn2.Size = new System.Drawing.Size(100, 0);
             this.noBtn2.Text = "规则";
             this.noBtn2.MouseEnter += new Swebui.Controls.SwebMouseMoveEventHandler(this.noBtn1_MouseOver);
@@ -896,7 +871,6 @@ namespace SwebuiDemo
             this.noBtn3.RaiseMouseEvent = true;
             this.noBtn3.SelectBackgroundColor = System.Drawing.Color.White;
             this.noBtn3.SelectColor = System.Drawing.Color.Black;
-            this.noBtn3.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.noBtn3.Size = new System.Drawing.Size(100, 0);
             this.noBtn3.Text = "安全";
             this.noBtn3.MouseEnter += new Swebui.Controls.SwebMouseMoveEventHandler(this.noBtn1_MouseOver);
@@ -914,7 +888,6 @@ namespace SwebuiDemo
             this.noBtn4.RaiseMouseEvent = true;
             this.noBtn4.SelectBackgroundColor = System.Drawing.Color.White;
             this.noBtn4.SelectColor = System.Drawing.Color.Black;
-            this.noBtn4.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.noBtn4.Size = new System.Drawing.Size(100, 0);
             this.noBtn4.Text = "公益";
             this.noBtn4.MouseEnter += new Swebui.Controls.SwebMouseMoveEventHandler(this.noBtn1_MouseOver);
@@ -932,7 +905,6 @@ namespace SwebuiDemo
             this.noBtn5.RaiseMouseEvent = true;
             this.noBtn5.SelectBackgroundColor = System.Drawing.Color.White;
             this.noBtn5.SelectColor = System.Drawing.Color.Black;
-            this.noBtn5.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.noBtn5.Size = new System.Drawing.Size(100, 0);
             this.noBtn5.MouseEnter += new Swebui.Controls.SwebMouseMoveEventHandler(this.noBtn1_MouseOver);
             // 
@@ -956,7 +928,6 @@ namespace SwebuiDemo
             this.button24.NumberOfLines = 0;
             this.button24.SelectBackgroundColor = System.Drawing.Color.White;
             this.button24.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button24.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button24.Size = new System.Drawing.Size(0, 24);
             this.button24.Text = "关于加强卖家广告(含弹窗)合规宣传的公告";
             // 
@@ -1232,7 +1203,6 @@ namespace SwebuiDemo
             this.button19.NumberOfLines = 0;
             this.button19.SelectBackgroundColor = System.Drawing.Color.White;
             this.button19.SelectColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
-            this.button19.SelectTextDecorationLine = Swebui.Controls.TextDecorationLineType.None;
             this.button19.Size = new System.Drawing.Size(0, 0);
             this.button19.Text = "更多 >";
             // 
@@ -1263,7 +1233,6 @@ namespace SwebuiDemo
             // 
             this.image8.Flex = 1;
             this.image8.Name = "image8";
-            this.image8.ResouceData = null;
             this.image8.ResourceID = "app1.webp";
             this.image8.Size = new System.Drawing.Size(0, 45);
             this.image8.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -1280,7 +1249,6 @@ namespace SwebuiDemo
             // 
             this.image9.Flex = 1;
             this.image9.Name = "image9";
-            this.image9.ResouceData = null;
             this.image9.ResourceID = "app2.webp";
             this.image9.Size = new System.Drawing.Size(0, 45);
             this.image9.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -1297,7 +1265,6 @@ namespace SwebuiDemo
             // 
             this.image10.Flex = 1;
             this.image10.Name = "image10";
-            this.image10.ResouceData = null;
             this.image10.ResourceID = "app3.webp";
             this.image10.Size = new System.Drawing.Size(0, 45);
             this.image10.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -1314,7 +1281,6 @@ namespace SwebuiDemo
             // 
             this.image11.Flex = 1;
             this.image11.Name = "image11";
-            this.image11.ResouceData = null;
             this.image11.ResourceID = "app4.webp";
             this.image11.Size = new System.Drawing.Size(0, 45);
             this.image11.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -1331,7 +1297,6 @@ namespace SwebuiDemo
             // 
             this.image12.Flex = 1;
             this.image12.Name = "image12";
-            this.image12.ResouceData = null;
             this.image12.ResourceID = "app5.webp";
             this.image12.Size = new System.Drawing.Size(0, 45);
             this.image12.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -1360,7 +1325,6 @@ namespace SwebuiDemo
             // 
             this.image13.Margin = new Swebui.Controls.Margin(6F, 0F, 0F, 0F);
             this.image13.Name = "image13";
-            this.image13.ResouceData = null;
             this.image13.ResourceID = "hd2.png";
             this.image13.Size = new System.Drawing.Size(65, 20);
             this.image13.SizeMode = Swebui.Controls.ImageSizeMode.Zoom;
@@ -1403,7 +1367,6 @@ namespace SwebuiDemo
             this.image14.BorderRadius = 12;
             this.image14.Flex = 1;
             this.image14.Name = "image14";
-            this.image14.ResouceData = null;
             this.image14.ResourceID = "gg1.jpg";
             this.image14.Size = new System.Drawing.Size(0, 45);
             this.image14.SizeMode = Swebui.Controls.ImageSizeMode.Stretch;
@@ -1429,7 +1392,6 @@ namespace SwebuiDemo
             this.image15.BorderRadius = 12;
             this.image15.Flex = 1;
             this.image15.Name = "image15";
-            this.image15.ResouceData = null;
             this.image15.ResourceID = "gg2.jpg";
             this.image15.Size = new System.Drawing.Size(0, 45);
             this.image15.SizeMode = Swebui.Controls.ImageSizeMode.Stretch;
@@ -1455,7 +1417,6 @@ namespace SwebuiDemo
             this.image16.BorderRadius = 12;
             this.image16.Flex = 1;
             this.image16.Name = "image16";
-            this.image16.ResouceData = null;
             this.image16.ResourceID = "gg3.jpg";
             this.image16.Size = new System.Drawing.Size(0, 45);
             this.image16.SizeMode = Swebui.Controls.ImageSizeMode.Stretch;

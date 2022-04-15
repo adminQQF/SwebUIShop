@@ -50,7 +50,8 @@ namespace SwebuiDemo
                     HorizontalAlignment = HorizontalAlignment.Left,
                     RaiseMouseEvent = true,
                     Padding = new Padding(10, 0, 10, 0),
-                    Tag = i
+                    Tag = i,
+                    NumberOfLines=1
                 };
                 button.MouseLeave += navButton_MouseOut;
                 button.MouseEnter += navButton_MouseOver;
